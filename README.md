@@ -1,6 +1,6 @@
 # SCW Module 1: A YOLO-based Automated System for Real-time 3D Printer State Monitoring
 This is the object detection module for the Smart Connect Worker project funded and supervised by California State University Northridge Department of Energy.
-This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://drive.google.com/file/d/1dvMl7bOjjt8JzsBF6P7kSXNZ-KeLhodt/view?usp=sharing).
+This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://drive.google.com/file/d/1dvMl7bOjjt8JzsBF6P7kSXNZ-KeLhodt/view?usp=sharing). This works is largely based on [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
 
 ## Introduction
 
