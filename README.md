@@ -3,7 +3,7 @@ This is the object detection module for the Smart Connect Worker project funded 
 This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://drive.google.com/file/d/1dvMl7bOjjt8JzsBF6P7kSXNZ-KeLhodt/view?usp=sharing) by Bian et. al. 
 This work is largely based on the object detection model of [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
 
-## Summary (Detailed methodoly is in the paper)
+## Summary (Detailed methodology is in the paper)
 ![Screenshot](workflow.png)
 The proposed work consists of two main parts: the first part is a YOLO-based object detection model that is able to detect and output the relative coordinates of the major components of a 3D printer; the second part is a filtering algorithm that takes as the input the coordinates predicted by the first module, and filters out the current machine state from all possible machine states by analyzing the coordinates. Finally, the raw and processed images as well as the predictions are displayed on a web-based graphical user interface (which is not included in this repository). All modules function in real-time, which allows spontaneous detections and monitoring of machine states.
 
