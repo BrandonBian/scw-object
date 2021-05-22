@@ -22,7 +22,7 @@ object_detection_test.py: a naive demonstrating Python program that illustrates 
 
 yolov3-custom.cfg: a configuration file for the training and testing of the model
 
-Note: You may download the pre-trained weight [here](https://drive.google.com/file/d/1h2eFIRpB2K5esNt6qKxO1HiZ8V7e3kFm/view?usp=sharing), and put it into a folder named "weights".
+Note: You may download the pre-trained weight [here](https://drive.google.com/file/d/1h2eFIRpB2K5esNt6qKxO1HiZ8V7e3kFm/view?usp=sharing), and put it into a folder named "weights". **Update**: there is a better pre-trained weight [here](https://drive.google.com/file/d/1XrfeUAppVzBK4A6DT92UttHZoljDv3Ft/view?usp=sharing) that was trained for a subsequent journal paper, and under more complicated dataset.
 
 ## Conclusion
 This is only a naive model of the work proposed in the paper and is only for reference. We believe this work demonstrates the feasibility and efficiency of adopting machine learning algorithms to improve existing manufacturing systems.
