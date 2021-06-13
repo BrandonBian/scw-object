@@ -1,6 +1,6 @@
 # SCW Module 1: A YOLO-based Automated System for Real-time 3D Printer State Monitoring
 This is the object detection module for the Smart Connect Worker project funded and supervised by California State University Northridge Department of Energy.
-This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://drive.google.com/file/d/1dvMl7bOjjt8JzsBF6P7kSXNZ-KeLhodt/view?usp=sharing) by Bian et. al. 
+This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77970-2_42) by Bian et. al. 
 This work is largely based on the object detection model of [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
 
 ## Summary (Detailed methodology is in the paper)
@@ -26,3 +26,20 @@ Note: You may download the pre-trained weight [here](https://drive.google.com/fi
 
 ## Conclusion
 This is only a naive model of the work proposed in the paper and is only for reference. We believe this work demonstrates the feasibility and efficiency of adopting machine learning algorithms to improve existing manufacturing systems.
+
+## Other Information
+
+If you find this project to be useful, please consider citing [our paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77970-2_42):
+
+```
+@incollection{Bian_2021,
+	doi = {10.1007/978-3-030-77970-2_42},
+	url = {https://doi.org/10.1007%2F978-3-030-77970-2_42},
+	year = 2021,
+	publisher = {Springer International Publishing},
+	pages = {554--567},
+	author = {Shijie Bian and Tiancheng Lin and Chen Li and Yongwei Fu and Mengrui Jiang and Tongzi Wu and Xiyi Hang and Bingbing Li},
+	title = {Real-Time Object Detection for Smart Connected Worker in 3D Printing},
+	booktitle = {Computational Science {\textendash} {ICCS} 2021}
+} 
+```
