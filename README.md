@@ -29,7 +29,7 @@ This is only a naive model of the work proposed in the paper and is only for ref
 
 ## Other Information
 
-If you find this project to be useful, please consider citing [our paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77970-2_42):
+If you find this project to be useful, please consider citing [our paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77970-2_42), which can be easily dowloaded [here](https://link.springer.com/content/pdf/10.1007%2F978-3-030-77970-2_42.pdf):
 
 ```
 @incollection{Bian_2021,
