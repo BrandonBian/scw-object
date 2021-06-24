@@ -11,6 +11,8 @@ The following GIF shows a real-time demonstration of 3D printer monitoring:
 
 ![GIF](demo_gif.gif)
 
+You may also find a recorded
+
 ## Part 1: YOLO-based object detection
 We pre-trained a YOLOv3 model using images collected during an experiment in which the 3D printer of interest printed a sample model. During real-time testing, raw images acquired from a camera located inside the 3D printer are fed into the pre-trained model, which produces the processed images with bounding boxes around each major component, as well as the coordinates of the detected components in pixels.
 
