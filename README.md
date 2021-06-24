@@ -7,6 +7,10 @@ This work is largely based on the object detection model of [YOLOv3](https://git
 ![Screenshot](workflow.png)
 The proposed work consists of two main parts: the first part is a YOLO-based object detection model that is able to detect and output the relative coordinates of the major components of a 3D printer; the second part is a filtering algorithm that takes as the input the coordinates predicted by the first module, and filters out the current machine state from all possible machine states by analyzing the coordinates. Finally, the raw and processed images as well as the predictions are displayed on a web-based graphical user interface (which is not included in this repository). All modules function in real-time, which allows spontaneous detections and monitoring of machine states.
 
+The following GIF shows a real-time demonstration of 3D printer monitoring:
+
+![GIF](demo_gif.gif)
+
 ## Part 1: YOLO-based object detection
 We pre-trained a YOLOv3 model using images collected during an experiment in which the 3D printer of interest printed a sample model. During real-time testing, raw images acquired from a camera located inside the 3D printer are fed into the pre-trained model, which produces the processed images with bounding boxes around each major component, as well as the coordinates of the detected components in pixels.
 
