@@ -1,6 +1,6 @@
 # Project Smart Connected Worker (SCW) - Module 1: 
 ## A YOLO-based Automated System for Real-time 3D Printer State Monitoring
-This is the object detection module for the Smart Connect Worker project funded and supervised by California State University Northridge Department of Energy.
+This is the object detection module for the [Smart Connect Worker project](https://github.com/BrandonBian/SCW-V1.0) funded and supervised by California State University Northridge Department of Energy.
 This is the Python implementation regarding the YOLO-based object detection model as well as the machine state filtering algorithm as proposed in the published [ICCS 2021 conference paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77970-2_42) by Bian et. al. 
 This work is largely based on the object detection model of [YOLOv3](https://github.com/eriklindernoren/PyTorch-YOLOv3).
 
